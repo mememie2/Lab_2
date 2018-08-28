@@ -198,8 +198,10 @@ class OXTest {
 
     @Test
     void getScoreDraw(){
+
         OX ox = new OX();
         assertEquals(0,ox.getScoreDraw());
+
         ox.put(0,0);
         ox.put(0,1);
         ox.put(0,2);

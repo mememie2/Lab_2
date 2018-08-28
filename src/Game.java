@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class Game {
+
     private static OX ox;
     private static Scanner sc = new Scanner(System.in);
     private static int col;
